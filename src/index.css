@@ -3,26 +3,20 @@
   padding: 0;
 }
 
-
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  background: #f8db27;
+  font-family: 'Homer Simpson Revised', sans-serif, monospace;
 }
 
 .container {
-  background-color: rgba(255, 192, 205, 0.3);
-  border: 2px solid red;
+  background-color: #2f64d6;
   border-radius: 10px;
   padding: 8px;
   margin-block: 20px;
+  margin-inline: 20px;
+  color: black;
 }
 
 .blog-container {
@@ -33,28 +27,30 @@ code {
 .title {
   padding-top: 20px;
   padding-bottom: 10px;
+  font-size: 40px;
 }
 
 .author {
   padding-block: 5px;
-  font-size: 13px;
+  font-size: 20px;
   font-style: italic;
 }
 
 .date {
-  font-size: small;
+  font-size: 15px;
   padding-block: 10px;
 }
 
 hr {
   height: 3px;
-  background-color:  orangered;
+  background-color: #ff81c1;
   border-style: none;
   width: 18px;
 }
 
 .blog-container > img {
-  height: 400px;
+  max-width: 80%; /* Set the maximum width to 100% of the container */
+  height: auto;
   align-self: center;
   padding-top: 20px;
 }
@@ -62,11 +58,13 @@ hr {
 .blog-container > figcaption {
   font-style: italic;
   text-align: center;
-  font-size: 13px;
+  font-size: 18px;
+  padding-top: 5px;
 }
 
 .content {
   padding-block: 15px;
+  font-size: 20px;
 }
 
 .comment-container {
@@ -74,11 +72,12 @@ hr {
   flex-direction: row;
   align-items: center;
   gap: 10px;
+  font-size: 20px;
 }
 
 .circle {
   border-radius: 50%;
-  background-color: red;
+  background-color:  #ff81c1;
   width: 45px;
   height: 45px;
   color: white;
@@ -92,15 +91,52 @@ hr {
   font-style: italic;
   padding-left: 15px;
   padding-block: 10px;
+  font-size: 18px;
 }
 
 .blog-form {
   display: flex;
   flex-direction: column;
   align-items: space-between;
-  gap: 5px;
+  gap: 10px;
   width: 50%;
   margin: auto;
+  background-color: #9c5b01;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+input {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+input::placeholder {
+  color: black;
+  opacity: 0.5;
+  font-family: 'Homer Simpson Revised', sans-serif, monospace;
+  font-size: 15px;
+}
+
+textarea {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  min-width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+textarea::placeholder {
+  color: black;
+  opacity: 0.5;
+  font-family: 'Homer Simpson Revised', sans-serif, monospace;
+  font-size: 15px;
 }
 
 span {
@@ -112,18 +148,19 @@ span {
 .submitbtn {
   align-self: center;
   justify-self: center;
-  width: 60px;
+  width: 65px;
   height: 30px;
   border-radius: 5px;
   margin-top: 7.5px;
+  border: none;
+  font-weight: bold;
+  font-family: 'Homer Simpson Revised', sans-serif, monospace;
+  font-size: 20px;
 }
 
-@media (max-width: 400px) {
-  
-  .blog-container > img {
-    height: 180px;
-    align-self: center;
-    padding-top: 20px;
-  }
-
+.footer {
+  text-align: left;
+  padding: 20px;
+  opacity: 0.5;
+  color: #9c5b01;
 }
