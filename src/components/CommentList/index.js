@@ -1,20 +1,6 @@
 import Comment from "../Comment";
-import { v4 as uuidv4 } from "uuid";
 
-function CommentList() {
-
-  const comments = [
-  {
-    id: uuidv4(),
-    author: "Billy Bootcamper",
-    content: "Hello, great post",
-  },
-  {
-    id: "jFyGAKz1VsGputO1gV8xa",
-    author: "Chris Meah",
-    content: "Many thank yous",
-  },
-]
+function CommentList({ commentsArray }) {
 
 function takeInitials(comment) {
     const authorInitials = comment.author.split(" ");
@@ -28,11 +14,11 @@ function takeInitials(comment) {
 
   return (
     <div>
-    {comments.map((comment) => {
-    return (
-    <Comment key={comment.id} author={comment.author} content={comment.content} initials={takeInitials(comment)}/>
-    );
-    })};
+    {commentsArray.map((comment) => {
+  return (
+    <Comment key={ comment.id } author={ comment.author } content={ comment.content } initials={ takeInitials(comment) } />
+  );
+})}
     </div>
   )
 }
