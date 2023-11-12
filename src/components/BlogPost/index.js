@@ -1,7 +1,7 @@
 function BlogPost({ blog }) {
 
   return (
-    <div className="blog-container">
+    <div className="blog-container container">
       <h1 className="title">{blog.title}</h1>
       <h3 className="author"> By {blog.author}</h3>
       <p className="date">{blog.datePosted}</p>

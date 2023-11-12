@@ -10,7 +10,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
 
 code {
@@ -18,13 +17,17 @@ code {
     monospace;
 }
 
-.blog-container {
-  display: flex;
-  flex-direction: column;
+.container {
   background-color: rgba(255, 192, 205, 0.3);
   border: 2px solid red;
   border-radius: 10px;
   padding: 8px;
+  margin-block: 20px;
+}
+
+.blog-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .title {
@@ -64,4 +67,29 @@ hr {
 
 .content {
   padding-block: 15px;
+}
+
+.comment-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: red;
+  width: 45px;
+  height: 45px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.comment-box {
+  font-style: italic;
+  padding-left: 15px;
+  padding-block: 10px;
 }
