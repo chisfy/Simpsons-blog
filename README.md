@@ -1,3 +1,6 @@
+The React Recap Task was a guide to creating a blog app using React. Before you start, it suggests checking out some React docs. The tasks include making components like BlogPost, Comment, CommentList, and CommentForm. For example, CommentForm lets users submit comments, and App brings everything together. It says to take it step by step, plan things logically, and use npm start to see your progress. The goal? A cool blog app where you can post and comment.
+
+
 # React Recap Tasks
 
 For these tasks, you'll put what you've learned this week together to create a blog app with components that display posts and comments and allow users to add new comments. We've given you guidance around the props, states, and behaviors of each component as well as examples, so please read this readme carefully.
