@@ -12,15 +12,20 @@ This mini-project included include making components like BlogPost, Comment, Com
 ## 🏁 Visit The Website
 
 <p align="center">
-<a href="https://bright-crisp-639cd3.netlify.app/">Simspon's Blog</a>
+<a href="https://bright-crisp-639cd3.netlify.app/">Simpson's Blog</a>
 </p>
 
 ## ⛏️ Tech Stack
 
-<p align="center">
-<a href="https://react.dev/">React</a> &
-<a href="https://www.javascript.com/">JavaScript</a>
-</p>
+<section align="center">
+<a href="https://www.typescriptlang.org/"><img src="https://github.com/chisfy/Simpsons-blog/assets/137444313/3935dfe8-eebe-46c9-8bc6-4fd46a5a2daf" alt="JS_logo" height="100" width="170"/></a>
+&nbsp;&nbsp;&nbsp;
+<a href="https://react.dev/"><img src="https://github.com/chisfy/SoC-Shop/assets/137444313/3931383a-9636-4eae-b0bd-ba58b0517597" alt="React_logo" height="100" width="110"/></a>
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+<a href="https://react.dev/"><img src="https://github.com/chisfy/Simpsons-blog/assets/137444313/e4b7f100-adc3-4521-9db9-225a449ab5e2" alt="CSS_logo" height="100" width="100"/></a>
+</section>
   
 ## 🏫 Lessons Learned
 
