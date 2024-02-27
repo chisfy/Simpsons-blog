@@ -8,6 +8,9 @@ This was my first introduction into React! A simple blog single-page app where y
 <p align="center">  
 This mini-project included include making components like BlogPost, Comment, CommentList, and CommentForm whilst utlizing the UseState Hook and props. <br>
 </p>
+<p align="center"> 
+As this was my first mini project that was deployed, I decided to use this to practice docker and undersatnd containerisation and how to dockerise an app!
+</p>
 
 ## 🏁 Visit The Website
 
@@ -24,7 +27,11 @@ This mini-project included include making components like BlogPost, Comment, Com
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
-<a href="https://react.dev/"><img src="https://github.com/chisfy/Simpsons-blog/assets/137444313/e4b7f100-adc3-4521-9db9-225a449ab5e2" alt="CSS_logo" height="100" width="100"/></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://github.com/chisfy/Simpsons-blog/assets/137444313/e4b7f100-adc3-4521-9db9-225a449ab5e2" alt="css_logo" height="100" width="100"/></a>
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+<a href="https://www.docker.com/"><img src="https://github.com/chisfy/Simpsons-blog/assets/137444313/10ffd9f2-59a0-4af6-91b1-c9f1181cb23c" alt="docker_logo" height="100" width="170"/></a>
+
 </section>
   
 ## 🏫 Lessons Learned
@@ -37,6 +44,9 @@ Understanding of JSX and Javascript and how they work with each other
 </p>
 <p align="center">
 Better understanding of responsive design! This app works well in transition between screen sizes, the mobile and desktop work too!
+</p>
+<p align="center">
+How to use docker, the process of creating images and containers so that an application is ready for deployment with a cloud service. I also learn thow to create containers for two enviroments; development and production - with development hot loading is vital to ensure changes are visible and working to the containerised version of the app.
 </p>
 
 ## 💭 Reflections
